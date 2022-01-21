@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/main.css'>
+    <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+
+    <script src='/media.js' defer type="module"></script>
+    <script src='/peers.js' defer type="module"></script>
+    <script src='/message.js' defer type="module"></script>
+</head>
+    <body >
+
+        <div id = "connect">
+            <span style="font-weight: bold">ID: </span>
+            <input type="text" id="id" title="Input the ID ">
+            <button id="connect-button">Connect</button>
+        </div>
+
+        <div id = "flex" style = "display:none">
+            <div id = "game"></div>
+
+            <div id = "videos">     
+                <div>
+                    <button id = "video-button">Video poziv</button>
+                </div>     
+                <video playsinline autoplay id ="ja"></video>
+                <video playsinline autoplay id ="on"></video>
+            </div>
+    
+            <div id = "text">     
+                <span style="font-weight: bold">send message: </span>
+                <input type="text" id="message" >
+                <button id="text-button">Send</button>      
+            </div>
+        </div>
+        
+</body>
+
+</html>

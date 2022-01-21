@@ -1,0 +1,29 @@
+button{   
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px
+}
+
+#id,#message {
+    height:50px;
+    font-size:14pt;
+}
+
+body{
+    justify-content: space-evenly
+}
+
+#game{
+    background-color:lightgreen;
+    width: 100vmin;
+    height: 90vmin;
+    display: grid;
+    grid-template-rows: repeat(25, 1fr);
+    grid-template-columns: repeat(25, 1fr);
+    margin-right: 100px;
+}
+
+video{
+    height: 300px;
+    width : 300px;
+}
